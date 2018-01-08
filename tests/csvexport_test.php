@@ -90,14 +90,14 @@ class mod_questionnaire_csvexport_test extends advanced_testcase {
                 "Q08_Rate Scale 1014->eighteen	Q08_Rate Scale 1014->nineteen	Q08_Rate Scale 1014->twenty	" .
                 "Q08_Rate Scale 1014->happy	Q08_Rate Scale 1014->sad	Q08_Rate Scale 1014->jealous",
             "		Test course 1		Testy Lastname1	username1	Test answer	Some header textSome paragraph text	83	" .
-                "27/12/2017	wind	three	0	0	0	0	0	0	0	0	0	1	1	2	3	4	5	1	2	3	4	",
+                "27/12/".$data('Y')."	wind	three	0	0	0	0	0	0	0	0	0	1	1	2	3	4	5	1	2	3	4	",
             "		Test course 1		Testy Lastname2	username2	Test answer	Some header textSome paragraph text	83	" .
-                "27/12/2017	wind	three	0	0	0	0	0	0	0	0	0	1	1	2	3	4	5	1	2	3	4	",
+                "27/12/".$data('Y')."	wind	three	0	0	0	0	0	0	0	0	0	1	1	2	3	4	5	1	2	3	4	",
             "		Test course 1		Testy Lastname3	username3	Test answer	Some header textSome paragraph text	83	" .
-                "27/12/2017	wind	three	0	0	0	0	0	0	0	0	0	1	1	2	3	4	5	1	2	3	4	",
+                "27/12/".$data('Y')."	wind	three	0	0	0	0	0	0	0	0	0	1	1	2	3	4	5	1	2	3	4	",
             "		Test course 1		Testy Lastname4	username4	Test answer	Some header textSome paragraph text	83	" .
-                "27/12/2017	wind	three	0	0	0	0	0	0	0	0	0	1	1	2	3	4	5	1	2	3	4	",
+                "27/12/".$data('Y')."	wind	three	0	0	0	0	0	0	0	0	0	1	1	2	3	4	5	1	2	3	4	",
             "		Test course 1		Testy Lastname5	username5	Test answer	Some header textSome paragraph text	83	" .
-                "27/12/2017	wind	three	0	0	0	0	0	0	0	0	0	1	1	2	3	4	5	1	2	3	4	"];
+                "27/12/".$data('Y')."	wind	three	0	0	0	0	0	0	0	0	0	1	1	2	3	4	5	1	2	3	4	"];
     }
 }
